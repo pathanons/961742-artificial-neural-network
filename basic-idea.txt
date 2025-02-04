@@ -1,0 +1,13 @@
+We would like to make anormaly detection of stock price focusing on:
+- Black swan
+- Herding 
+in U.S. Stock price
+
+We will separate our area of interested into three main parts;
+1. Dimensional Reduction; 
+    using any deep learning to reduce the high frquency domain in to some feature space 
+    and use this to compare between normal and anormaly.
+2. Learning Representation;
+    using an idea of autoencoder to encoder stock price signal into some latent space and then use the decoder 
+    to map back into the signal space then we will use this latent space with unsupervised learning process to separate between normal annd abnormal.
+3. Building End-to-End for detect anormaly signal in the stock price.
